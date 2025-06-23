@@ -130,10 +130,10 @@ Develop region-specific investment approaches that leverage Southern Africa's fu
 ### Sector Portfolio Optimization
 Build diversified portfolios that include Fintech as a foundation while exploring opportunities in Energy, Healthcare, and Transport sectors that address fundamental African market needs.
 
-###Company Stage Integration
+### Company Stage Integration
 Implement investment strategies that engage companies across all stages, from emerging startups to mature companies, taking advantage of the full spectrum of opportunities in Africa's developing markets.
 
-###Efficiency-Focused Analysis
+### Efficiency-Focused Analysis
 Incorporate efficiency metrics alongside total funding analysis to identify undervalued opportunities and optimize capital allocation across regions and sectors.
 
 ### Hub-Based Market Entry
