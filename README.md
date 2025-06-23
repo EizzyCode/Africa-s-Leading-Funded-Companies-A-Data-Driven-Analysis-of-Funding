@@ -43,8 +43,8 @@ Primary Analysis Platform
 Microsoft Power BI served as the primary analysis and visualization platform for this comprehensive study, leveraging its advanced data modeling, DAX calculation capabilities, and interactive dashboard functionality.
 
 Power BI Features and Capabilities Utilized
-***** Data Modeling:** Created robust data relationships and hierarchies for multidimensional analysis across funding, geographic, and sector dimensions 
-* DAX Functions:** Implemented advanced calculations for funding averages, efficiency metrics, and comparative analysis across regions and sectors
+*** Data Modeling:** Created robust data relationships and hierarchies for multidimensional analysis across funding, geographic, and sector dimensions 
+*** DAX Functions:** Implemented advanced calculations for funding averages, efficiency metrics, and comparative analysis across regions and sectors
 *** Interactive Visualizations:** Developed dynamic charts, maps, and drill-down capabilities for comprehensive data exploration Power 
 *** Custom Measures:** Developed DAX measures for average funding amounts, efficiency calculations, and regional comparisons
 *** Dynamic Filtering:** Implemented slicer-based filtering for companies, sectors, regions, and categories
@@ -77,7 +77,7 @@ The overview page establishes the fundamental structure of Africa's funding ecos
 *** Regional Funding Patterns:** The geographic analysis reveals significant concentration, with Southern Africa leading at $336.79M, followed by North Africa at $259.37M, East Africa at $242.99M, West Africa at $218.36M, and Central Africa at $133.13M. This distribution reflects established financial centers and market maturity levels across different regions.
 *** Sector Dominance Analysis:** The sector breakdown shows Fintech's clear leadership in average funding amounts, followed by Energy, Healthcare, Telecom, Transport, Agriculture, and Logistics. This pattern reflects Africa's focus on financial inclusion, infrastructure development, and essential services that address fundamental market needs.
 *** Top Company Performance:** The top funded companies analysis reveals Tabby leading with $1.5bn, followed by Aspern Pharmaceuticals, MTN-Sudan, Greenlight Planet, and Soniturf International. This diversity across sectors demonstrates the breadth of successful African companies attracting significant investment.
-*** Company Category Distribution: **The analysis shows $524.48M in Legacy Firms, $356.86M in Emerging Companies, and $244.13M in Mature Companies, indicating a healthy mix of established players and new entrants in the funding ecosystem.
+*** Company Category Distribution:** The analysis shows $524.48M in Legacy Firms, $356.86M in Emerging Companies, and $244.13M in Mature Companies, indicating a healthy mix of established players and new entrants in the funding ecosystem.
   
 This page establishes that Africa's funding landscape is characterized by regional concentration, sector focus on essential services, and a diverse mix of company types attracting investment.
 
