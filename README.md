@@ -32,36 +32,36 @@ This analysis utilizes data sourced from https://startuplist.africa/top-100, whi
 The dataset encompasses funding amounts, geographic regions, sector classifications, company categories, founding dates, and performance metrics. Each record represents a funded company’s complete profile, including location, sector focus, funding history, and operational characteristics. Companies were manually grouped into relevant sectors, and their countries were organized into regional classifications using DAX functions.
 
 ### Key Data Dimensions Analyzed:
-*** Funding Metrics: **Total amounts raised, average funding levels, and efficiency indicators
-***  Geographic Distribution:** Regional funding patterns, country-specific investments, and location-based performance
-***  Sector Analysis: **Industry classifications, sector-specific funding trends, and performance comparisons
-***  Company Profiles:** Founding dates, company categories, operational metrics, and growth patterns
-***  Performance Indicators:** Funding efficiency, regional performance, and comparative analysis metrics
+* **Funding Metrics:** Total amounts raised, average funding levels, and efficiency indicators
+* **Geographic Distribution:** Regional funding patterns, country-specific investments, and location-based performance
+* **Sector Analysis:** Industry classifications, sector-specific funding trends, and performance comparisons
+* **Company Profiles:** Founding dates, company categories, operational metrics, and growth patterns
+* **Performance Indicators:** Funding efficiency, regional performance, and comparative analysis metrics
 
 ## TOOLS AND TECHNOLOGIES
 Primary Analysis Platform
 Microsoft Power BI served as the primary analysis and visualization platform for this comprehensive study, leveraging its advanced data modeling, DAX calculation capabilities, and interactive dashboard functionality.
 
 Power BI Features and Capabilities Utilized
-*** Data Modeling:** Created robust data relationships and hierarchies for multidimensional analysis across funding, geographic, and sector dimensions 
-*** DAX Functions:** Implemented advanced calculations for funding averages, efficiency metrics, and comparative analysis across regions and sectors
-*** Interactive Visualizations:** Developed dynamic charts, maps, and drill-down capabilities for comprehensive data exploration Power 
-*** Custom Measures:** Developed DAX measures for average funding amounts, efficiency calculations, and regional comparisons
-*** Dynamic Filtering:** Implemented slicer-based filtering for companies, sectors, regions, and categories
-*** Cross-Page Interactions:** Created seamless navigation and filtering across dashboard pages
-*** Aggregation Functions:** Used SUM, AVERAGE, COUNT, and DISTINCTCOUNT for comprehensive metric calculations
-*** Geographic Visualization:** Implemented map visualizations for regional funding distribution analysis
+* **Data Modeling:** Created robust data relationships and hierarchies for multidimensional analysis across funding, geographic, and sector dimensions 
+* **DAX Functions:** Implemented advanced calculations for funding averages, efficiency metrics, and comparative analysis across regions and sectors
+* **Interactive Visualizations:** Developed dynamic charts, maps, and drill-down capabilities for comprehensive data exploration Power 
+* **Custom Measures:** Developed DAX measures for average funding amounts, efficiency calculations, and regional comparisons
+* **Dynamic Filtering:** Implemented slicer-based filtering for companies, sectors, regions, and categories
+* **Cross-Page Interactions:** Created seamless navigation and filtering across dashboard pages
+* **Aggregation Functions:** Used SUM, AVERAGE, COUNT, and DISTINCTCOUNT for comprehensive metric calculations
+* **Geographic Visualization:** Implemented map visualizations for regional funding distribution analysis
 
 ## PRE-ANALYSIS
 Before developing the detailed dashboard pages, I conducted a comprehensive pre-analysis phase to establish the analytical framework for understanding Africa’s funding landscape.
 
-*** Project Structure and Variables**
+* **Project Structure and Variables**
 Identified key metrics including total funding amounts, regional distribution, sector performance, and company characteristics to understand the complex relationships within Africa’s investment ecosystem. This helped establish which factors drive funding success and what insights could guide stakeholder decisions.
-*** Analytical Framework Development**
+* **Analytical Framework Development**
 The problem statement guided initial hypotheses about regional funding concentrations, sector-specific patterns, and company performance indicators. Early analysis suggested that funding distribution might be concentrated in specific regions and sectors, with efficiency metrics revealing different patterns than total funding amounts.
-*** Dashboard Design Strategy**
+* **Dashboard Design Strategy**
 Structured the analysis into three complementary pages: Overview for high-level funding patterns, Breakdown for detailed efficiency and performance analysis, and Data Explorer for granular company-level insights. This organization enables stakeholders to progress from general market understanding to specific investment opportunities.
-*** Stakeholder Consideration**
+* **Stakeholder Consideration**
 Considered the diverse needs of investors requiring market insights, policymakers seeking development patterns, and entrepreneurs identifying success factors. This influenced the level of detail and type of analysis presented across different dashboard sections.
 
 ## ANALYSIS OF DASHBOARD PAGES
@@ -74,10 +74,10 @@ The Power BI dashboard reveals comprehensive insights into Africa's funding land
 
 The overview page establishes the fundamental structure of Africa's funding ecosystem, revealing that $27 billion in total funding has been raised across the continent. The analysis shows Southern Africa as the most funded region, with Fintech emerging as the dominant sector, attracting the highest levels of investment.
 
-*** Regional Funding Patterns:** The geographic analysis reveals significant concentration, with Southern Africa leading at $336.79M, followed by North Africa at $259.37M, East Africa at $242.99M, West Africa at $218.36M, and Central Africa at $133.13M. This distribution reflects established financial centers and market maturity levels across different regions.
-*** Sector Dominance Analysis:** The sector breakdown shows Fintech's clear leadership in average funding amounts, followed by Energy, Healthcare, Telecom, Transport, Agriculture, and Logistics. This pattern reflects Africa's focus on financial inclusion, infrastructure development, and essential services that address fundamental market needs.
-*** Top Company Performance:** The top funded companies analysis reveals Tabby leading with $1.5bn, followed by Aspern Pharmaceuticals, MTN-Sudan, Greenlight Planet, and Soniturf International. This diversity across sectors demonstrates the breadth of successful African companies attracting significant investment.
-*** Company Category Distribution:** The analysis shows $524.48M in Legacy Firms, $356.86M in Emerging Companies, and $244.13M in Mature Companies, indicating a healthy mix of established players and new entrants in the funding ecosystem.
+* **Regional Funding Patterns:** The geographic analysis reveals significant concentration, with Southern Africa leading at $336.79M, followed by North Africa at $259.37M, East Africa at $242.99M, West Africa at $218.36M, and Central Africa at $133.13M. This distribution reflects established financial centers and market maturity levels across different regions.
+* **Sector Dominance Analysis:** The sector breakdown shows Fintech's clear leadership in average funding amounts, followed by Energy, Healthcare, Telecom, Transport, Agriculture, and Logistics. This pattern reflects Africa's focus on financial inclusion, infrastructure development, and essential services that address fundamental market needs.
+* **Top Company Performance:** The top funded companies analysis reveals Tabby leading with $1.5bn, followed by Aspern Pharmaceuticals, MTN-Sudan, Greenlight Planet, and Soniturf International. This diversity across sectors demonstrates the breadth of successful African companies attracting significant investment.
+* **Company Category Distribution:** The analysis shows $524.48M in Legacy Firms, $356.86M in Emerging Companies, and $244.13M in Mature Companies, indicating a healthy mix of established players and new entrants in the funding ecosystem.
   
 This page establishes that Africa's funding landscape is characterized by regional concentration, sector focus on essential services, and a diverse mix of company types attracting investment.
 
@@ -87,11 +87,11 @@ This page establishes that Africa's funding landscape is characterized by region
 
 The second page shifts focus from total amounts to efficiency and performance metrics, revealing that the average funding efficiency stands at $24.01M per company. This analysis uncovers different patterns when examining funding effectiveness rather than just total amounts.
 
-*** Efficiency Leadership:** Tabby emerges as the top performing company not just in total funding but also in efficiency metrics, with $240.15M in efficiency measures. This dual leadership suggests strong operational performance alongside funding success.
-*** Regional Efficiency Patterns:** The regional efficiency analysis shows North Africa leading in funding efficiency metrics, achieved through DAX calculations that divide total funding by company age across regional groupings. This efficiency leadership suggests North African companies achieve strong capital utilization relative to their operational timeframes, despite not leading in absolute funding amounts.
-*** Sector Efficiency Distribution:** The sector efficiency breakdown shows Fintech maintaining leadership, followed by Transport, Energy, E-Commerce, and Telecom. This pattern largely mirrors total funding but with some variations that suggest sector-specific efficiency differences.
-*** Company Distribution by Region:** The regional company count reveals West Africa with 26 companies, Southern Africa with 23, East Africa with 21, North Africa with 10, and Central Africa with 2. This distribution shows that West Africa has the most companies but not the highest total funding, suggesting smaller average deal sizes.
-*** Individual Company Efficiency:** The detailed company efficiency analysis, calculated through DAX measures dividing funding amounts by company age, shows varying efficiency levels across companies with different operational histories. This metric reveals companies that achieve strong capital efficiency relative to their operational timeframe, providing insights beyond simple funding totals.
+* **Efficiency Leadership:** Tabby emerges as the top performing company not just in total funding but also in efficiency metrics, with $240.15M in efficiency measures. This dual leadership suggests strong operational performance alongside funding success.
+* **Regional Efficiency Patterns:** The regional efficiency analysis shows North Africa leading in funding efficiency metrics, achieved through DAX calculations that divide total funding by company age across regional groupings. This efficiency leadership suggests North African companies achieve strong capital utilization relative to their operational timeframes, despite not leading in absolute funding amounts.
+* **Sector Efficiency Distribution:** The sector efficiency breakdown shows Fintech maintaining leadership, followed by Transport, Energy, E-Commerce, and Telecom. This pattern largely mirrors total funding but with some variations that suggest sector-specific efficiency differences.
+* **Company Distribution by Region:** The regional company count reveals West Africa with 26 companies, Southern Africa with 23, East Africa with 21, North Africa with 10, and Central Africa with 2. This distribution shows that West Africa has the most companies but not the highest total funding, suggesting smaller average deal sizes.
+* **Individual Company Efficiency:** The detailed company efficiency analysis, calculated through DAX measures dividing funding amounts by company age, shows varying efficiency levels across companies with different operational histories. This metric reveals companies that achieve strong capital efficiency relative to their operational timeframe, providing insights beyond simple funding totals.
   
 This page demonstrates that efficiency metrics reveal different success patterns than total funding amounts, with North Africa showing particular strength in capital efficiency despite having fewer total companies.
 
