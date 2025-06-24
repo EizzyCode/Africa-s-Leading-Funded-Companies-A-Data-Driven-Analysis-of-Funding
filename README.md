@@ -74,10 +74,10 @@ The Power BI dashboard reveals comprehensive insights into Africa's funding land
 
 The overview page establishes the fundamental structure of Africa's funding ecosystem, revealing that $27 billion in total funding has been raised across the continent. The analysis shows Southern Africa as the most funded region, with Fintech emerging as the dominant sector, attracting the highest levels of investment.
 
-* **Regional Funding Patterns:** The geographic analysis reveals significant concentration, with Southern Africa leading at $336.79M, followed by North Africa at $259.37M, East Africa at $242.99M, West Africa at $218.36M, and Central Africa at $133.13M. This distribution reflects established financial centers and market maturity levels across different regions.
-* **Sector Dominance Analysis:** The sector breakdown shows Fintech's clear leadership in average funding amounts, followed by Energy, Healthcare, Telecom, Transport, Agriculture, and Logistics. This pattern reflects Africa's focus on financial inclusion, infrastructure development, and essential services that address fundamental market needs.
-* **Top Company Performance:** The top funded companies analysis reveals Tabby leading with $1.5bn, followed by Aspern Pharmaceuticals, MTN-Sudan, Greenlight Planet, and Soniturf International. This diversity across sectors demonstrates the breadth of successful African companies attracting significant investment.
-* **Company Category Distribution:** The analysis shows $524.48M in Legacy Firms, $356.86M in Emerging Companies, and $244.13M in Mature Companies, indicating a healthy mix of established players and new entrants in the funding ecosystem.
+* **Regional Funding Patterns:** The geographic analysis reveals significant concentration, with Southern Africa leading at $336.79 Million, followed by North Africa at $269.93 Million, East Africa at $262.99 Million, West Africa at $218.96 Million, and Central Africa at $133.19 Million. This distribution reflects established financial centers and market maturity levels across different regions.
+* **Sector Dominance Analysis:** The sector breakdown shows Healthcare clear leadership in average funding amounts, followed by Fintech, Ecommerce, Transport, Energy, and Agriculture. This pattern reflects Africa's focus on Healthcare Services, financial inclusion, infrastructure development, and essential services that address fundamental market needs.
+* **Top Company Performance:** The top funded companies analysis reveals Aspern Pharmaceuticals leading with $3.8bn, followed by Tabby, Zepz, MTN-Halan, Jumia, Greenlight Planet, and Soniturf International. This diversity across sectors demonstrates the breadth of successful African companies attracting significant investment.
+* **Company Category Distribution:** The analysis shows $356.86M in Legacy Firms, $264.15M in Emerging Companies, and $244.28M in Mature Companies, indicating a healthy mix of established players and new entrants in the funding ecosystem.
   
 This page establishes that Africa's funding landscape is characterized by regional concentration, sector focus on essential services, and a diverse mix of company types attracting investment.
 
@@ -90,7 +90,7 @@ The second page shifts focus from total amounts to efficiency and performance me
 * **Efficiency Leadership:** Tabby emerges as the top performing company not just in total funding but also in efficiency metrics, with $240.15M in efficiency measures. This dual leadership suggests strong operational performance alongside funding success.
 * **Regional Efficiency Patterns:** The regional efficiency analysis shows North Africa leading in funding efficiency metrics, achieved through DAX calculations that divide total funding by company age across regional groupings. This efficiency leadership suggests North African companies achieve strong capital utilization relative to their operational timeframes, despite not leading in absolute funding amounts.
 * **Sector Efficiency Distribution:** The sector efficiency breakdown shows Fintech maintaining leadership, followed by Transport, Energy, E-Commerce, and Telecom. This pattern largely mirrors total funding but with some variations that suggest sector-specific efficiency differences.
-* **Company Distribution by Region:** The regional company count reveals West Africa with 26 companies, Southern Africa with 23, East Africa with 21, North Africa with 10, and Central Africa with 2. This distribution shows that West Africa has the most companies but not the highest total funding, suggesting smaller average deal sizes.
+* **Company Distribution by Region:**The regional company count reveals West Africa with 26 companies, Southern Africa with 23, East Africa with 21, North Africa with 10, and Central Africa with 2. This distribution shows that West Africa has the most companies but not the highest total funding, suggesting smaller average deal sizes.
 * **Individual Company Efficiency:** The detailed company efficiency analysis, calculated through DAX measures dividing funding amounts by company age, shows varying efficiency levels across companies with different operational histories. This metric reveals companies that achieve strong capital efficiency relative to their operational timeframe, providing insights beyond simple funding totals.
   
 This page demonstrates that efficiency metrics reveal different success patterns than total funding amounts, with North Africa showing particular strength in capital efficiency despite having fewer total companies.
@@ -99,12 +99,9 @@ This page demonstrates that efficiency metrics reveal different success patterns
 
 ![image](https://github.com/user-attachments/assets/9e21b0f8-4bd4-4eb0-abc2-f7e0ba93670e)
 
-The final page provides a searchable data table containing detailed profiles of all 78 companies in the analysis. Users can explore individual company characteristics including sector classifications (manually grouped from the original data), regional assignments (created through DAX country-to-region mapping), company ages (calculated using DAX from founding years), and company categories (Legacy Firms, Mature Companies, Emerging Companies based on age ranges). The search functionality enables stakeholders to quickly identify specific companies or filter by particular characteristics, supporting detailed research into investment opportunities and competitive analysis across Africa's funding landscape.
+The final page provides a searchable data table containing detailed profiles of all 78 companies in the analysis. Users can explore individual company characteristics including sector classifications, regional classifications, company ages, and company categories (Legacy Firms, Mature Companies, Emerging Companies based on age ranges). The search functionality enables stakeholders to quickly identify specific companies or filter by particular characteristics, supporting detailed research into investment opportunities and competitive analysis across Africa's funding landscape.
 
 ## KEY OBSERVATIONS
-
-![image](https://github.com/user-attachments/assets/beb19c7f-525b-4182-8b78-c247170cc0f9)
-
 ### Regional Concentration with Efficiency Variations
 The analysis reveals that while Southern Africa leads in total funding, North Africa demonstrates superior efficiency metrics. This suggests different investment approaches and market characteristics that create varying optimization opportunities across regions.
 
@@ -121,9 +118,6 @@ The concentration of successful companies in South Africa, Nigeria, and Kenya re
 Different sectors show varying funding patterns and efficiency metrics, suggesting that investment strategies should be tailored to sector-specific characteristics and market dynamics.
 
 ## STRATEGIC RECOMMENDATIONS
-
-![image](https://github.com/user-attachments/assets/22258951-3dd1-4c8f-a288-7bf1dbaafa49)
-
 ### Regional Investment Strategy
 Develop region-specific investment approaches that leverage Southern Africa's funding concentration while capitalizing on North Africa's efficiency advantages. Consider regional hub strategies that connect markets across different regions.
 
